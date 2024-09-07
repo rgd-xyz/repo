@@ -1,0 +1,59 @@
+#box1{
+    text-align: left;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(11, 15, 42 
+    );
+    box-shadow: 3px 3px 3px;
+    margin-top: 5%;
+    margin-left: 22%;
+
+
+}
+
+h1{
+    font-family: "kanit";
+    font-size: 2em;
+    text-align: center;
+}
+
+#box2{
+  
+}
+
+ul.myul{
+    display: inline-block;
+    text-align: left;
+  
+    font-family: "Pixelify sans";
+}
+
+
+h2{
+    font-family: "pixelify sans";
+    font-size: 1em;
+    margin-left: 5%;
+    
+}
+
+#box3{
+
+    position: relative;
+}
+
+img{
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+  }
+
+  dl.mydl{
+    margin-left: 5%;
+    font-family: pixelify sans;
+    font-size: 1em;
+  }
+
+ 
