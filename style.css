@@ -1,59 +1,104 @@
-#box1{
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(9, 12, 32);
+}
+
+/* Center main box */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Outer container */
+#box1 {
+    width: 90%;
+    max-width: 700px;
+    min-width: 300px;
+    padding: 2rem;
+    background-color: rgb(11, 15, 42);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    margin: 5% auto;
+    border-radius: 15px;
     text-align: left;
-    width: 700px;
-    height: 500px;
-    background-color: rgb(11, 15, 42 
-    );
-    box-shadow: 3px 3px 3px;
-    margin-top: 5%;
-    margin-left: 22%;
-
-
-}
-
-h1{
-    font-family: "kanit";
-    font-size: 2em;
-    text-align: center;
-}
-
-#box2{
-  
-}
-
-ul.myul{
-    display: inline-block;
-    text-align: left;
-  
-    font-family: "Pixelify sans";
-}
-
-
-h2{
-    font-family: "pixelify sans";
-    font-size: 1em;
-    margin-left: 5%;
-    
-}
-
-#box3{
-
     position: relative;
 }
 
-img{
+/* Heading */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Inner container */
+#box2 {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* List styling */
+ul.myul {
+    list-style: none;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+ul.myul li {
+    margin: 0.8rem 0;
+}
+
+ul.myul a {
+    color: #00f;
+    text-decoration: none;
+}
+
+/* Subheading */
+h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Image box */
+#box3 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#box3 img {
+    width: 25%;
+    max-width: 200px;
+    height: auto;
     border-radius: 10%;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 150px;
-    left: 450px;
-  }
+    display: block;
+    margin: 0 auto;
+}
 
-  dl.mydl{
+/* Footer / made using */
+dl.mydl {
+    margin-top: 1.5rem;
     margin-left: 5%;
-    font-family: pixelify sans;
-    font-size: 1em;
-  }
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1rem;
+}
 
- 
+/* Material icons sizing */
+.material-icons {
+    font-size: 1rem;
+    vertical-align: middle;
+}
